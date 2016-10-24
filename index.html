@@ -4,17 +4,84 @@
 	<meta charset="UTF-8">
 	<title>Ashley's super awesome fantastic trivia game!</title>
 	<style type="text/css" src="assets/css/style.css"></style>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/simplex/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+ 	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container-fluid">
-	<h1>Can you finish these Kanye West tweets?</h1>
-	<div id="question"></div>
-	<div id="answer"></div>
-	<div id="time"></div>
+ <div id='wrap'>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-1 col-lg-1 "></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 ">
+                    <div class="panel panel-default triviaBox">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12  text-center" id="header">
+                                    <h1 class="page-header">Can you finish Kanye's tweets?</h1>
+                                </div>
+                                <hr>
+                               <!-- Row of the timer -->
+                                <!-- to house the question count -->
+                                <div class="col-sm-12 col-md-4 col-lg-4 " id="questionCounter"></div>
+                               
 
+                                 <!-- For the timer -->
+                                <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                                    <div id="timer" class="text-center">
+                                        <!-- dynamically update the timer here -->
 
-</div>
+                                        <!-- id for the start button -->
+                                        <div id="start"> </div>
+                                        <!-- <button class="waves-effect waves-light btn-lg text-center" id="start"> START TRIVIA </button> -->
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 "></div> <!-- end timer row -->
+
+                                <!-- for the quesitons -->
+                                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                                    <div id="question">
+
+                                    </div>
+                                </div>
+
+                                <!-- for the answers -->
+                                <div class="col-sm-12 col-md-12 col-lg-12 center-block">
+                                    <div id="answers">
+                                   <!--  <p>White Christmas by Bing Crosby </p>  -->
+                                    </div>
+                                    <br>
+                                    <div class="col-sm-2 col-md-2 col-lg-2"></div>
+
+                                    <!-- Correct answer dynamically updated if time up or guessed incorrect -->
+                                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                                        <div id="correctAnswer">
+                                            <!-- This is where the text for correct answer will go if time is up or incorrect answer-->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-12 center-block text-center">
+                                        <div id="fact"></div>
+                                        </div>
+
+                                        <!--the row for the picture to make sure it is centered  -->
+                                    <div class="col-sm-12 col-md-3 col-lg-3 center-block text-xs-center"></div>
+                                    <!-- Where the picture will go on the answer page -->
+                                    <div class="col-sm-12 col-md-6 col-lg-6 center-block text-xs-center"  id="picture">
+                                            
+                                                <!-- class = "pictureframe" -->
+                                                <!-- Insert picture here -->
+                                            
+                                    </div>
+                                    <div class="col-sm-12 col-md-3 col-lg-3 center-block text-xs-center"></div> <!-- This ends the three columns for the picture-->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="push"> </div>
+                    </div>
+                    <div id="footer">
+                    </div>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 	
 </body>
 </html>
