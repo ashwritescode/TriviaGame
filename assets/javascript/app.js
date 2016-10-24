@@ -25,7 +25,7 @@ triviaObj ={
         visual:"assets/images/kanye_fish.gif",
     },{
         question:"I ain't even gon lie, I love ________ so much right now",
-        possibleAnswers:["Kim", "Me", "My Mom", "Chipotle"],
+        answers:["Kim", "Me", "My Mom", "Chipotle"],
         correctAnswer:"me",
         visual:"assets/images/kanye_love.gif",
     },{
