@@ -6,3 +6,95 @@ img{
 	font-size: 4em;
 	padding:30px;
 }
+
+li{
+	font-size: 2em;
+}
+
+
+.startButton {
+	box-shadow: 8px 8px 123px -9px rgba(0,0,0,1);
+	height: 100px;
+	width: 2 00px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 40px;
+
+
+}
+.startButton:hover {
+	background-color: #FF216A;
+}
+
+h1 {
+	font-size: 80px;
+	/*text-shadow: */
+	margin-bottom: -30px;
+}
+
+
+span {
+	font-weight: bolder;
+
+}
+
+.guess {
+	font-size: 20px;
+	display: block;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin: 20px;
+	margin-left: 75px;
+	padding: 20px;
+	width: 40%;
+}
+
+.guess:hover {
+	background-color: #edeeed;
+}
+
+p {
+	text-align: center;
+	font-size: 35px;
+}
+
+
+.triviaBox {
+	border: solid 2px black;
+}
+
+.pictureframe {
+	height: 300px;
+	width: 567px;
+	margin-top: 25px;
+}
+
+
+.img-center {
+	margin:0 auto;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+#header {
+	margin-bottom: 30px;
+	font-family: 'Rokkitt', serif;
+}
+
+#timer {
+	font-weight: bolder;
+}
+
+#question {
+	font-size: 25px;
+}
+
+
+#correctAnswer {
+	font-size:25px;
+}
+
